@@ -1,10 +1,9 @@
 {
-    "rewrites": [
-      { "source": "/index.html", "destination": "/" }
-    ],
-    "redirects": [
-      { "source": "/console-log-hello-world.html", "destination": "/console-log-hello-world", "permanent": true },
-    ],
-    "cleanUrls": true
-  }
-  
+  "rewrites": [
+    { "source": "/", "destination": "/index.html" }
+  ],
+  "redirects": [
+    { "source": "/console-log-hello-world.html", "destination": "/console-log-hello-world", "permanent": true }
+  ],
+  "cleanUrls": true
+}

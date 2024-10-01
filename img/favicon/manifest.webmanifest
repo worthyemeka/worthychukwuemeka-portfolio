@@ -1,0 +1,11 @@
+{
+  "name": "Worthy Chukwuemeka - Personal Portfolio",
+  "short_name": "Worthy Chukwuemeka",
+  "icons": [
+    { "src": "/img/favicon/android-icon-192.png", "type": "image/png", "sizes": "192x192" },
+    { "src": "/img/favicon/android-icon-512.png", "type": "image/png", "sizes": "512x512" }
+  ],
+  "theme_color": "#f1f1f1",
+  "background_color": "#1f1f1f",
+  "display": "standalone"
+}

@@ -2,8 +2,8 @@
 <html lang="en" dir="ltr">
 
 
- 
-<meta http-equiv="content-type" content="text/html;charset=utf-8" /> 
+
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
 
 <head>
     <meta charset="UTF-8">
@@ -316,17 +316,104 @@
                                 <!-- Project Block - Project Link Start -->
                                 <div class="project__block small-size">
                                     <div class="container-fluid p-0">
-                                        <div class="row g-0">
-                                            <div class="col-12 d-flex justify-content-center">
-                                                <a class="btn btn-circle-text hover-circle" href="./index.html#notes">
+                                        <div class="row g-2"
+                                            style="display: flex; justify-content: center; gap: 30px; flex-wrap: wrap;">
+                                            <div class="col-12 d-flex justify-content-center"
+                                                style="flex: 1; max-width: fit-content; margin: 10px 20px;">
+                                                <a class="btn btn-circle-text hover-circle"
+                                                    href="./index.html#mainframe">
                                                     <em></em>
-                                                    <span class="btn-caption">#mainframe</span>
+                                                    <span class="btn-caption">mainframe1</span>
+                                                </a>
+                                            </div>
+                                            <div class="col-12 d-flex justify-content-center"
+                                                style="flex: 1; max-width: fit-content; margin: 10px 20px;">
+                                                <a class="btn btn-circle-text hover-circle"
+                                                    href="./console-log-life-update.html">
+                                                    <em></em>
+                                                    <span class="btn-caption">Entry #2</span>
                                                 </a>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                                 <!-- Project Block - Project Link End -->
+
+                                <!-- Comment Section -->
+                                <!-- Project Block - Comments Start -->
+                                <div id="disqus_thread"></div>
+
+                                <script>
+                                    (function () {
+                                        var d = document, s = d.createElement('script');
+                                        s.src = 'https://worthy-chukwuemeka.disqus.com/embed.js';
+                                        s.setAttribute('data-timestamp', +new Date());
+                                        (d.head || d.body).appendChild(s);
+                                    })();
+                                </script>
+
+                                <noscript>
+                                    Please enable JavaScript to view the
+                                    <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+                                </noscript>
+
+                                <style>
+                                    /* Apply Urbanist font */
+                                    #disqus_thread {
+                                        font-family: 'Urbanist', sans-serif !important;
+                                        max-width: 100%;
+                                        width: 100%;
+                                        margin: auto;
+                                    }
+
+                                    /* Ensure comments section is responsive */
+                                    @media screen and (max-width: 768px) {
+                                        #disqus_thread {
+                                            padding: 10px;
+                                        }
+                                    }
+
+                                    /* Style the comment box */
+                                    .post-message,
+                                    .comment {
+                                        font-family: 'Urbanist', sans-serif !important;
+                                        color: white !important;
+                                        font-size: 14px !important;
+                                    }
+
+                                    /* Ensure the comment box scales on smaller screens */
+                                    .textarea,
+                                    .postbox {
+                                        background: transparent !important;
+                                        color: white !important;
+                                        border: 1px solid #ddd !important;
+                                        border-radius: 15px !important;
+                                        padding: 10px !important;
+                                        width: 100% !important;
+                                        box-sizing: border-box !important;
+                                    }
+
+                                    /* Make buttons responsive */
+                                    .button {
+                                        background: #c68dfa !important;
+                                        color: white !important;
+                                        border-radius: 20px !important;
+                                        font-family: 'Urbanist', sans-serif !important;
+                                        cursor: pointer !important;
+                                        padding: 8px 15px !important;
+                                        border: none !important;
+                                        max-width: 100% !important;
+                                    }
+
+                                    /* Responsive font sizes */
+                                    @media screen and (max-width: 480px) {
+
+                                        .post-message,
+                                        .comment {
+                                            font-size: 12px !important;
+                                        }
+                                    }
+                                </style>
 
                             </div>
                         </div>

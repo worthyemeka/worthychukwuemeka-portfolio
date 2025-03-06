@@ -211,6 +211,10 @@
   background-image: url('../img/notes/blog-hero.png');
 }
 
+.blog-image-2 {
+  background-image: url('../img/notes/blog-2.webp');
+}
+
 .marquee-image-single-1 {
   background-image: url("../img/marquee/01.webp");
 }

@@ -3,7 +3,8 @@
     { "source": "/", "destination": "/index.html" }
   ],
   "redirects": [
-    { "source": "/console-log-hello-world.html", "destination": "/console-log-hello-world", "permanent": true }
+    { "source": "/console-log-hello-world.html", "destination": "/console-log-hello-world", "permanent": true },
+    { "source": "/console-log-life-update.html", "destination": "/console-log-life-update", "permanent": true }
   ],
   "cleanUrls": true
 }

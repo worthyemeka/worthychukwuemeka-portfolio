@@ -4,6 +4,7 @@
   ],
   "redirects": [
     { "source": "/console-log-hello-world.html", "destination": "/console-log-hello-world", "permanent": true },
+    { "source": "/in-christ-for-christ-with-joy.html", "destination": "//in-christ-for-christ-with-joy", "permanent": true },
     { "source": "/console-log-life-update.html", "destination": "/console-log-life-update", "permanent": true }
   ],
   "cleanUrls": true

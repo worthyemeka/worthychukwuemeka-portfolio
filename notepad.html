@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<!-- Donuts and sprinklesss -->
+
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+
+<head>
+    <meta charset="UTF-8">
+
+    <!-- Page Title -->
+    <title>Worthy Chukwuemeka - Personal Portfolio</title>
+
+    <!-- Meta Tags -->
+    <meta name="description"
+        content="Worthy Chukwuemeka – Crafting innovative digital experiences. Specializing in web development, CRM systems, and creative solutions to build the future of tech.">
+    <meta name="keywords"
+        content="Worthy Chukwuemeka, web developer, full-stack developer, CRM systems, portfolio, tech solutions, innovation, responsive design, creative, modern, digital experiences, TypeScript, Next.js, UI/UX design">
+    <meta name="author" content="Worthy Chukwuemeka">
+
+    <link href="//cdn-images.mailchimp.com/embedcode/classic-061523.css" rel="stylesheet" type="text/css">
+
+
+    <!-- Viewport Meta-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <!-- Template Favicon and Icons Start -->
+    <link rel="icon" href="img/2.png" sizes="any">
+    <link rel="icon" href="img/2.png" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="img/2.png">
+    <link rel="manifest" href="img/favicon/manifest.webmanifest">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900anddisplay=swap" rel="stylesheet">
+    <!-- Template Favicon and Icons End -->
+
+    <!-- Facebook Metadata Start -->
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:title" content="Worthy Chukwuemeka – Building Digital Futures with Style">
+    <meta property="og:description"
+        content="Explore the innovative portfolio of Worthy Chukwuemeka, a web developer specializing in creative digital solutions, CRM systems, and modern web development.">
+    <meta property="og:url" content="https://worthychukwuemeka.com">
+    <meta property="og:image" content="img/og-worthy.jpg">
+
+    <!-- Facebook Metadata End -->
+
+    <!-- Template Styles Start -->
+    <link rel="stylesheet" type="text/css" href="css/loaders/loader.css">
+    <link rel="stylesheet" type="text/css" href="css/plugins.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <!-- Template Styles End -->
+
+    <!-- Custom Browser Color Start -->
+    <meta name="theme-color" media="(prefers-color-scheme: light)" content="#F1F1F1">
+    <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#1F1F1F">
+    <meta name="msapplication-navbutton-color" content="#1F1F1F">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <!-- Custom Browser Color End -->
+
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+
+</head>
+
+<body>
+
+    <!-- Header Start -->
+    <header id="header" class="header d-flex justify-content-center loading__fade">
+        <!-- Navigation Menu Start -->
+        <div class="header__navigation d-flex justify-content-start">
+            <nav id="menu" class="menu">
+                <ul class="menu__list d-flex justify-content-start">
+                    <li class="menu__item">
+                        <a class="menu__link btn" href="index.html#mainframe">
+                            <span class="menu__caption">Mainframe</span>
+                            <i class="ph ph-house-simple"></i>
+                        </a>
+                    </li>
+
+                    <li class="menu__item">
+                        <a class="menu__link btn" href="index.html#bio">
+                            <span class="menu__caption">Bio</span>
+                            <i class="ph ph-user"></i>
+                        </a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link btn" href="index.html#toolbox">
+                            <span class="menu__caption">Toolbox</span>
+                            <i class="ph ph-briefcase"></i>
+                        </a>
+                    </li>
+                    <li class="menu__item"></li>
+                    <a class="menu__link btn" href="index.html#topshelf">
+                        <span class="menu__caption">Topshelf</span>
+                        <i class="ph ph-trophy"></i>
+                    </a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link btn" href="index.html#dossier">
+                            <span class="menu__caption">Dossier</span>
+                            <i class="ph ph-receipt"></i>
+                        </a>
+                    </li>
+                    <li class="menu__item"></li>
+                    <a class="menu__link btn" href="index.html#accolades">
+                        <span class="menu__caption">Accolades</span>
+                        <i class="ph ph-hands-clapping"></i>
+                    </a>
+                    </li>
+                    <li class="menu__item"></li>
+                    <a class="menu__link btn" href="index.html#notes">
+                        <span class="menu__caption">Notes</span>
+                        <i class="ph ph-book"></i>
+                    </a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link btn" href="index.html#pingme">
+                            <span class="menu__caption">PingMe</span>
+                            <i class="ph ph-phone-outgoing"></i>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <!-- Navigation Menu End -->
+    </header>
+    <!-- Header End -->
+
+    <!-- Fixed Logo Start -->
+    <div class="logo loading__fade">
+        <a href="#mainframe" class="logo__link">
+            <!-- logo icon -->
+            <img id="logo-image" src="./img/logo-50.png" alt="Logo"> <!-- Default to dark mode logo -->
+        </a>
+    </div>
+
+    <script>
+        // Function to toggle between dark and light modes
+        function toggleColorMode(isDarkMode) {
+            const logoImage = document.getElementById('logo-image');
+
+            // Set the logo image based on the mode
+            if (isDarkMode) {
+                logoImage.src = './img/2.png'; // Dark mode logo
+            } else {
+                logoImage.src = './img/logo-50.png'; // Light mode logo
+            }
+        }
+
+        // Example usage
+        let isDarkMode = false; // This should be managed based on your app's state
+
+        // Call this function when toggling mode
+        toggleColorMode(isDarkMode);
+    </script>
+
+    <!-- Fixed Logo End -->
+
+
+    <!-- Fixed Color Switch Start -->
+    <div class="color loading__fade">
+        <button id="color-switcher" class="color-switcher" type="button" role="switch" aria-label="light/dark mode"
+            aria-checked="true"></button>
+    </div>
+    <!-- Fixed Color Switch End -->
+
+    <main id="page-content" class="page-content">
+        <!-- Inner Section - About - Start -->
+        <section id="bio" class="inner inner-grid-bottom about">
+            <div class="inner__wrapper">
+                <div class="container-fluid p-0">
+                    <div class="row g-0">
+
+                        <!-- Inner Section Name Start -->
+                        <div class="col-12 col-xl-2">
+                            <div class="inner__name">
+
+                                <!-- Content Block - Section Name Start -->
+                                <div class="content__block name-block">
+                                    <span class="section-name icon-right animate-in-up">
+                                        <span class="section-name-caption">Welcome to<br /> my Notes</span>
+                                        <i class="ph ph-arrow-down-right"></i>
+                                    </span>
+                                </div>
+                                <!-- Content Block - Section Name Start -->
+
+                            </div>
+                        </div>
+                        <!-- Inner Section Name End -->
+
+                        <!-- Inner Section Content Start -->
+                        <div class="col-12 col-xl-8">
+                            <div class="inner__content">
+
+                                <!-- Content Block - H2 Section Title Start -->
+                                <div class="content__block section-text-title">
+                                    <div class="block__descr">
+                                        <h2 class="reveal-type animate-in-up">
+                                            Worthy's Notepad
+                                        </h2>
+                                        <p class="h2__text type-basic-160lh animate-in-up">
+                                            From tech tutorials to anime recs, and faith talks to football bants; I
+                                            welcome you dearest gentle
+                                            reader
+                                            to my digital journal and collection of the most random things ever-
+                                            Worthy's Notepad! Do enjoy
+                                            the show, x
+                                        </p>
+                                    </div>
+                                </div>
+                                <!-- Content Block - H2 Section Title End -->
+
+                                <div class="content__block grid-block">
+                                    <div class="container-fluid p-0">
+                                        <div class="row g-0 align-items-stretch cards">
+                                            <!-- services cards grid single item -->
+
+                                            <div class="col-12 col-md-6 cards__item grid-item animate-card-2">
+                                                <div class="cards__card d-flex flex-column">
+                                                    <div class="cards__image d-flex animate-in-up"
+                                                        style="translate: none; rotate: none; scale: none; transform: translate(0px, 0px); opacity: 1;">
+                                                        <img src="img/notes/entry3-blog.png"
+                                                            alt="Service/Feature Image">
+                                                    </div>
+                                                    <div class="cards__descr">
+                                                        <h3 class="cards__title animate-in-up">In Christ, for
+                                                            Christ,<br />with Joy?</h3>
+                                                        <p class="cards__text type-basic-160lh animate-in-up"
+                                                            style="font-size: 20px; line-height: 1.4;">
+                                                            21 Apr, 2025 ◦ 7 min read
+                                                        </p>
+                                                        <p class="cards__text type-basic-160lh animate-in-up">
+                                                            This entry is a month overdue, but who cares? The past 3
+                                                            months (since the year started, basically), I have been
+                                                            having this constant “sinking” feeling... <a href="./in-christ-for-christ-with-joy.html"
+                                                                style="text-decoration: underline;">Read more</a>
+                                                        </p>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+
+                                            <div class="col-12 col-md-6 cards__item grid-item animate-card-2">
+                                                <div class="cards__card d-flex flex-column">
+                                                    <div class="cards__image d-flex animate-in-up"
+                                                        style="translate: none; rotate: none; scale: none; transform: translate(0px, 0px); opacity: 1;">
+                                                        <img src="img/notes/entry2-blog.png"
+                                                            alt="Service/Feature Image">
+                                                    </div>
+                                                    <div class="cards__descr">
+                                                        <h3 class="cards__title animate-in-up">console.log<br />('life
+                                                            update')</h3>
+                                                        <p class="cards__text type-basic-160lh animate-in-up"
+                                                            style="font-size: 20px; line-height: 1.4;">
+                                                            06 Mar, 2025 ◦ 5 min read
+                                                        </p>
+                                                        <p class="cards__text type-basic-160lh animate-in-up">
+                                                            I know, I know… it’s been six whole months since
+                                                            my last update. Let’s all take a moment for that
+                                                            realization. Awkward silence 👀
+                                                            Anyway, how una dey? 😭 If you’re... <a
+                                                                href="./console-log-life-update.html"
+                                                                style="text-decoration: underline;">Read more</a>
+                                                        </p>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+
+                                            <div class="col-12 col-md-6 cards__item grid-item animate-card-2">
+                                                <div class="cards__card d-flex flex-column">
+                                                    <div class="cards__image d-flex animate-in-up"
+                                                        style="translate: none; rotate: none; scale: none; transform: translate(0px, 0px); opacity: 1;">
+                                                        <img src="img/notes/notes-1.jpg" alt="Service/Feature Image">
+                                                    </div>
+                                                    <div class="cards__descr">
+                                                        <h3 class="cards__title animate-in-up">console.log<br />('hello
+                                                            world!')</h3>
+                                                        <p class="cards__text type-basic-160lh animate-in-up"
+                                                            style="font-size: 20px; line-height: 1.4;">
+                                                            30 Sep, 2024 ◦ 2 min read
+                                                        </p>
+                                                        <p class="cards__text type-basic-160lh animate-in-up">
+                                                            Welcome to Worthy's (my) Notepad, where code meets Christ,
+                                                            creativity meets purpose, and
+                                                            life
+                                                            gets written one digital page at a time! I’m beyond excited
+                                                            to... <a href="./console-log-hello-world.html"
+                                                                style="text-decoration: underline;">Read more</a>
+                                                        </p>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <!-- Inner Section Content End -->
+
+                        <!-- Inner Section Aside Start -->
+                        <div class="col-12 col-xl-2"></div>
+                        <!-- Inner Section Aside End -->
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Inner Section - About - End -->
+    </main>
+
+    <!-- Mobile Menu Bottom Placeholder Start -->
+    <div class="header-offset"></div>
+    <!-- Mobile Menu Bottom Placeholder End -->
+
+    <!-- To Top Button Start -->
+    <a href="#0" id="to-top" class="btn btn-to-top slide-up">
+        <i class="ph ph-arrow-up"></i>
+    </a>
+    <!-- To Top Button End -->
+
+    <!-- Root element of PhotoSwipe. Must have class pswp. -->
+    <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+        <!-- Background of PhotoSwipe.
+      It's a separate element, as animating opacity is faster than rgba(). -->
+        <div class="pswp__bg"></div>
+
+        <!-- Slides wrapper with overflow:hidden. -->
+        <div class="pswp__scroll-wrap">
+
+            <!-- Container that holds slides. PhotoSwipe keeps only 3 slides in DOM to save memory. -->
+            <!-- don't modify these 3 pswp__item elements, data is added later on. -->
+            <div class="pswp__container">
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+            </div>
+
+            <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+            <div class="pswp__ui pswp__ui--hidden">
+
+                <div class="pswp__top-bar">
+
+                    <!--  Controls are self-explanatory. Order can be changed. -->
+
+                    <div class="pswp__counter"></div>
+
+                    <button class="pswp__button pswp__button--close link-s" title="Close (Esc)"></button>
+
+                    <button class="pswp__button pswp__button--share link-s" title="Share"></button>
+
+                    <button class="pswp__button pswp__button--fs link-s" title="Toggle fullscreen"></button>
+
+                    <button class="pswp__button pswp__button--zoom link-s" title="Zoom in/out"></button>
+
+                    <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+                    <!-- element will get class pswp__preloader-active when preloader is running -->
+                    <div class="pswp__preloader">
+                        <div class="pswp__preloader__icn">
+                            <div class="pswp__preloader__cut">
+                                <div class="pswp__preloader__donut"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                    <div class="pswp__share-tooltip"></div>
+                </div>
+
+                <button class="pswp__button pswp__button--arrow--left link-s" title="Previous (arrow left)"></button>
+
+                <button class="pswp__button pswp__button--arrow--right link-s" title="Next (arrow right)"></button>
+
+                <div class="pswp__caption">
+                    <div class="pswp__caption__center"></div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>

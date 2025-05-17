@@ -135,12 +135,8 @@
           </li>
 
           <li class="menu__item">
-            <a 
-              href="https://design.worthychukwuemeka.com" 
-              target="_blank" 
-              class="menu__link btn" 
-              style="display: flex; align-items: center; padding: 10px 15px; background: white; color: black; border-radius: 25px; font-weight: 600; font-size: 14px; text-decoration: none; transition: all 0.3s ease; box-shadow: 0 2px 6px rgba(0,0,0,0.1);"
-            >
+            <a href="https://design.worthychukwuemeka.com" target="_blank" class="menu__link btn"
+              style="display: flex; align-items: center; padding: 10px 15px; background: white; color: black; border-radius: 25px; font-weight: 600; font-size: 14px; text-decoration: none; transition: all 0.3s ease; box-shadow: 0 2px 6px rgba(0,0,0,0.1);">
               <i class="fas fa-paint-brush" style="margin-right: 8px;"></i>
               <span class="menu__caption">Design Portfolio</span>
             </a>
@@ -406,7 +402,16 @@
                         <p class="about-descr__text type-basic-160lh animate-in-up">
                           I am Worthy Chukwuemeka, a skilled full-stack and no-code web developer from Nigeria,
                           passionate about blending creativity and technology to deliver seamless digital solutions.
-                          With over 3 years of experience, I specialize in building responsive and innovative web
+                          With over <span id="experience-years"></span> years of experience
+
+                          <script>
+                            (function () {
+                              const startYear = 2020;
+                              const now = new Date();
+                              const years = now.getFullYear() - startYear + (now.getMonth() >= 0 ? 0 : -1);
+                              document.getElementById("experience-years").textContent = years;
+                            })();
+                          </script>, I specialize in building responsive and innovative web
                           applications that are both functional and visually engaging.<br /><br />
                           I focus on creating user-centered digital experiences that stand out. My work emphasizes
                           clean, efficient code and intuitive design, tailored to meet the unique needs of clients and
